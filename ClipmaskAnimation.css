@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  h1{
+    font-size: 20rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('Img\\Flower.jpg');
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bp 5s infinite linear;
+  }
+  @keyframes bp{
+    0%{
+      background-position: 400px;
+    }
+    100%{
+      background-position: 0%;
+    }
+  }

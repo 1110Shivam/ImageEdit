@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  h1{
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('Img\\Nature.jpg');
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
